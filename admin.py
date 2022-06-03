@@ -99,9 +99,9 @@ def show_inven():
 
 def updated_inven():
     for i in x:
-        piece_item(i)
-    for i in y:
         gram_item(i)
+    for i in y:
+        piece_item(i)
 
 def final_inven():
   try:
